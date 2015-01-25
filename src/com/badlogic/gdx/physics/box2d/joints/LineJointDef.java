@@ -27,7 +27,7 @@ import com.badlogic.gdx.physics.box2d.JointDef;
  */
 public class LineJointDef extends JointDef {
 	public LineJointDef () {
-		type = JointType.LineJoint;
+		type = JointType.Unknown;
 	}
 
 	/**
